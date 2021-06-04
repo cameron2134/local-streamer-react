@@ -34,7 +34,7 @@ class Home extends Component {
                             (video) => 
                             (
                                 <Link to={"/videodetails/" + video.id}>
-                                <GridItem videoTitle={video.title}>
+                                <GridItem videoTitle={video.title} id={video.id}>
                                     
                                 </GridItem>
                                 </Link>
